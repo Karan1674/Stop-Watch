@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop_Watch</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="heading">
+        <h1>Stop Watch</h1>
+    </div>
+
+    <div class="stopwatch_container">
+        <div class="box">
+            <div class="stopwatch ">
+                <span class="time">00 : 00 : 00 : 00</span>
+            </div>
+            <div class="circle_stopWatch_container">
+                <div class="circle_stopwatch">
+                    <div class="circle circle_hours" style="--clr:red">00 <span>Hours</span></div>
+                    <div class="circle circle_mins" style="--clr:green">00 <span>Minutes</span></div>
+                    <div class="circle circle_sec" style="--clr:blue">00 <span>Seconds</span></div>
+                    <div class="circle circle_msec" style="--clr:orangered">00 <span>Milliseconds</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="stopwatch_button_container">
+            <div class="stopwatchButton">
+                <button class="btn stop" style="--clr:red">STOP</button>
+                <button class="btn start" style="--clr:green">START</button>
+                <button class="btn reset" style="--clr:blue">RESET</button>
+            </div>
+            <button class="btn modify" style="--clr:orangered">MODIFY</button>
+
+        </div>
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>
