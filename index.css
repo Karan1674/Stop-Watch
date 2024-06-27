@@ -160,6 +160,7 @@ body {
     .btn {
         font-size: 20px;
         padding: 5px;
+        padding-inline: 20px;
     }
 
     .heading {
