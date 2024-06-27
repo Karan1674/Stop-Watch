@@ -62,7 +62,6 @@ body {
    
 }
 
-
 .stopwatch.active {
     transition: .3s;
     visibility: hidden;
