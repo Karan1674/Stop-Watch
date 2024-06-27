@@ -134,7 +134,7 @@ body {
 }
 
 .btn {
-    background-color: var(--clr);
+/*     background-color: var(--clr); */
     color: white;
     font-size: 25px;
     box-shadow: 0 2px 4px 0 var(--clr), 0 1px 1px 0 var(--clr);
